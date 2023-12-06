@@ -29,10 +29,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_h8wd9da', 'template_kvar5ht', formRef.current, '9J9AIhuwh6qQrRUVB')
-      .then((result) => {
+      .then(() => {
          setSuccess(true)
         
-      }, (result) => {
+      }, () => {
         setError(true)
        
       });
