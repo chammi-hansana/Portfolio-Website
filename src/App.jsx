@@ -1,6 +1,6 @@
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
-import Test from "./Test";
+import Test from "./Test"
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
