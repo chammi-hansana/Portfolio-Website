@@ -54,6 +54,7 @@ const isInView  = useInView(ref,{margin:"-100px"})
           <button>WHAT WE DO?</button>
         </div>
       </motion.div>
+      
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
